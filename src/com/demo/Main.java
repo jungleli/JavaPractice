@@ -14,5 +14,8 @@ public class Main {
         diamond.drawCenteredTriangle(5);
         diamond.drawCenteredDiamond(3);
         diamond.drawCenteredDiamondWithName(3);
+
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        fizzBuzz.fizzBuzz(1, 20);
     }
 }
