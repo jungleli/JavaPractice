@@ -18,9 +18,6 @@ public class FizzBuzz {
     }
 
     public void fizzBuzz(int start, int end){
-//       System.out.print(IntStream.range(start, end).map(i ->
-//               {i%5 == 0 ? printFizzBuzz() : printFizz();}
-//       ));
         IntStream.range(start, end)
                 .forEach( (i) -> {
                     if(i%3==0 && i%5==0)
@@ -31,7 +28,5 @@ public class FizzBuzz {
                         printBuzz();
                     else System.out.println(i);
                 });
-
-
     }
 }

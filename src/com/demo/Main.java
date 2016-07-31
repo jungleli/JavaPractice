@@ -17,5 +17,8 @@ public class Main {
 
         FizzBuzz fizzBuzz = new FizzBuzz();
         fizzBuzz.fizzBuzz(1, 20);
+
+        PrimeFactors primeFactors = new PrimeFactors();
+        primeFactors.printPrimeFactors(30);
     }
 }
