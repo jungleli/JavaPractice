@@ -14,7 +14,7 @@ public class PrimeFactors {
         System.out.println(Arrays.toString(primeList));
     }
 
-    Integer[] primeFactors(int n) {
+    public Integer[] primeFactors(int n) {
         List<Integer> list = new ArrayList<Integer>();
         for (int i=2;i <= n;i++){
             while(n != i){
